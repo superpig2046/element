@@ -27,7 +27,7 @@
         font-size: 14px;
         margin-top: -15px;
         line-height: 16px;
-        background-color: #20a0ff;
+        background-color: var(--color-primary);
         height: 32px;
         z-index: -1;
         left: 0;
@@ -70,7 +70,7 @@
 
       &.confirm {
         font-weight: 800;
-        color: #20a0ff;
+        color: var(--color-primary);
       }
     }
 

@@ -11,13 +11,14 @@
 
   /* Colors
   -------------------------- */
-  --color-primary: #20a0ff;
-  --color-success: #13ce66;
-  --color-warning: #f7ba2a;
-  --color-danger: #ff4949;
-  --color-info: #50BFFF;
-  --color-blue: #2e90fe;
-  --color-blue-light: #5da9ff;
+  --color-primary: #3F51B5;
+  --color-accent: #FF5722;
+  --color-success: #8BC34A;
+  --color-warning: #FFC107;
+  --color-danger: #f44336;
+  --color-info: #03A9F4;
+  --color-blue: #3F51B5;
+  --color-blue-light: #3D5AFE;
   --color-blue-lighter: rgba(var(--color-blue), 0.12);
   --color-white: #fff;
   --color-black: #000;
@@ -25,7 +26,7 @@
 
   /* Link
   -------------------------- */
-  --link-color: #475669;
+  --link-color: #3F51B5;
   --link-hover-color: var(--color-primary);
 
   /* Border
@@ -45,7 +46,7 @@
   /* Font
   -------------------------- */
   --font-size-base: 14px;
-  --font-color-base: #1f2d3d;
+  --font-color-base: #3F51B5;
   --font-color-disabled-base: #bbb;
 
   /* Size
@@ -71,7 +72,7 @@
   /* Checkbox
   -------------------------- */
   --checkbox-font-size: 14px;
-  --checkbox-color: #1f2d3d;
+  --checkbox-color: #3F51B5;
   --checkbox-input-height: 18px;
   --checkbox-input-width: 18px;
   --checkbox-input-border-radius: var(--border-radius-base);
@@ -98,7 +99,7 @@
   /* Radio
   -------------------------- */
   --radio-font-size: 14px;
-  --radio-color: #1f2d3d;
+  --radio-color: #3F51B5;
   --radio-input-height: 18px;
   --radio-input-width: 18px;
   --radio-input-border-radius: var(--border-radius-circle);
@@ -210,7 +211,7 @@
   --tab-vertical-header-width: 90px;
   --tab-vertical-header-count-color: var(--color-white);
   --tab-vertical-header-count-fill: var(--color-blue);
-  --tab-horizontal-border: 2px solid #438de0;
+  --tab-horizontal-border: 2px solid #FF5722;
 
   /* Button
   -------------------------- */
@@ -232,7 +233,7 @@
   --button-mini-padding-vertical: 4px;
   --button-mini-padding-horizontal: 4px;
 
-  --button-default-color: #1F2D3D;
+  --button-default-color: #3F51B5;
   --button-default-fill: #fff;
   --button-default-border: #c4c4c4;
 
@@ -274,7 +275,7 @@
 
   /* Switch
  -------------------------- */
-  --switch-on-color: #20a0ff;
+  --switch-on-color: #3F51B5;
   --switch-off-color: #C0CCDA;
   --switch-disabled-color: #E5E9F3;
   --switch-disabled-text-color: #F9FAFC;
@@ -337,21 +338,21 @@
     --tag-gray-border: #e5e9f2;
     --tag-gray-color: #475669;
 
-    --tag-primary-fill: rgba(32,159,255,0.10);
-    --tag-primary-border: rgba(32,159,255,0.20);
-    --tag-primary-color: #20a0ff;
+    --tag-primary-fill: rgba(49,53,169,0.10);
+    --tag-primary-border: rgba(49,53,169,0.20);
+    --tag-primary-color: #3F51B5;
 
-    --tag-success-fill: rgba(18,206,102,0.10);
-    --tag-success-border: rgba(18,206,102,0.20);
-    --tag-success-color: #13ce66;
+    --tag-success-fill: rgba(118,189,50,0.10);
+    --tag-success-border: rgba(118,189,50,0.20);
+    --tag-success-color: #8BC34A;
 
-    --tag-warning-fill: rgba(247,186,41,0.10);
-    --tag-warning-border: rgba(247,186,41,0.20);
-    --tag-warning-color: #f7ba2a;
+    --tag-warning-fill: rgba(255,184,7,0.10);
+    --tag-warning-border: rgba(255,184,7,0.20);
+    --tag-warning-color: #FFC107;
 
-    --tag-danger-fill: rgba(255,73,73,0.10);
-    --tag-danger-border: rgba(255,73,73,0.20);
-    --tag-danger-color: #ff4949;
+    --tag-danger-fill: rgba(244,39,35,0.10);
+    --tag-danger-border: rgba(244,39,35,0.20);
+    --tag-danger-color: #f44336;
 
   /* Dropdown
    -------------------------- */
@@ -394,7 +395,7 @@
     --submenu-item-fill: #e5e9f2;
 
     --dark-menu-item-color: #475669;
-    --dark-menu-item-fill: #324057;
+    --dark-menu-item-fill: var(--color-primary);
     --dark-menu-item-hover-fill: #475669;
     --dark-submenu-item-fill: #1f2d3d;
 }

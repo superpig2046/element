@@ -59,7 +59,7 @@
         cursor: pointer;
 
         &:focus {
-          border-color: #2ea0ff;
+          border-color: var(--color-primary);
         }
       }
 

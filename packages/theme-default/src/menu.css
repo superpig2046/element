@@ -33,18 +33,18 @@
 
       & .el-menu-item,
       & .el-submenu__title {
-        color: #c0ccda;
+        color: #ffffff;
 
         &:hover {
-          background-color: #475669;
+          background-color: #3F51B5;
         }
       }
       
       & .el-submenu .el-menu {
-        background-color: #1f2f3d;
+        background-color: #3F51B5;
 
         & .el-menu-item:hover {
-          background-color: #475669;
+          background-color: #3F51B5;
         }
       }
     }
@@ -97,7 +97,7 @@
           position: static;
           vertical-align: middle;
           margin-left: 5px;
-          color: #99a9bf;
+          color: #ffffff;
           margin-top: -3px;
         }
       }
@@ -108,7 +108,7 @@
       & > .el-menu-item:hover,
       & > .el-submenu:hover .el-submenu__title,
       & > .el-submenu.is-active .el-submenu__title {
-        border-bottom: 5px solid var(--color-primary);
+        border-bottom: 5px solid var(--color-accent);
       }
 
       &.el-menu--dark {
@@ -127,7 +127,8 @@
             }
           }
           .el-menu-item.is-active {
-            color: var(--color-primary);
+            color: #ffffff;
+
           }
         }
       }
@@ -150,7 +151,8 @@
       background-color: #d3dce6;
     }
     @when active {
-      color: var(--color-primary);
+      color: #ffffff;
+      border-bottom: 5px solid var(--color-accent);
     }
   }
   

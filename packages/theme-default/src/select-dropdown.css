@@ -13,9 +13,18 @@
     box-sizing: border-box;
     margin: 5px 0;
 
+    & .el-select-dropdown__item.selected {
+      background-color: var(--color-primary)
+
+      }
+    & .el-select-dropdown__item.selected.hover {
+      background-color: var(--color-primary)
+
+    }
+
     @when multiple {
       & .el-select-dropdown__item.selected {
-        color: #20A0FF;
+        color: var(--color-primary);
         background-color: #fff;
 
         &.hover {
