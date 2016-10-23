@@ -128,7 +128,7 @@
           }
           .el-menu-item.is-active {
             color: #ffffff;
-
+            background-color: var(--color-accent);
           }
         }
       }
