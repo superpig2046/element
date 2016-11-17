@@ -11,7 +11,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.3);
     border-collapse: collapse;
     border: 1px solid var(--table-border-color);
     font-size: 14px;
@@ -110,6 +110,7 @@
       top: 0;
       left: 0;
       box-shadow: 1px 0 8px #d3d4d6;
+      background-color: #fff;
 
       &::before {
         content: '';
@@ -265,13 +266,13 @@
     }
 
     & tr {
-      background-color: #fff;
+      background-color: rgba(255,255,255,0);
     }
 
     @modifier striped {
       & .el-table__body {
         & tr:nth-child(2n) {
-          background: #FAFAFA;
+          background: rgba(234, 234, 234, 0.5);
 
           &.current-row {
             background: #EFF7FF;
