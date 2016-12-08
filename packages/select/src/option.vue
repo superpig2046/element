@@ -40,8 +40,7 @@
       return {
         index: -1,
         queryPassed: true,
-        hitState: false,
-        currentLabel: this.label
+        hitState: false
       };
     },
 
@@ -53,7 +52,9 @@
         }
         return result;
       },
-
+      currentLabel() {
+        return this.label;
+      },
       itemSelected() {
         if (Object.prototype.toString.call(this.parent.selected) === '[object Object]') {
           return this === this.parent.selected;
